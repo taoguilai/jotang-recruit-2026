@@ -10,3 +10,16 @@
 多次测试后确认初步掌握
 
 接着根据教程学会了查询不同作者，不同时间版本对文件的修改
+
+然后学习Linux下的Git使用
+
+git init建立空仓库或者重置仓库
+ls -ah 验证是否建立成功 目录下含有隐藏的 .git
+git clone 地址.git 目录 用来复制远程仓库
+
+git add添加文件到暂存区
+git status查看待提交状况,分支位置
+git commit -m " "提交暂存区文件到本地仓库并且标记版本
+git restore的几种命令用来恢复文件
+git mv修改名字
+git rm删除文件
